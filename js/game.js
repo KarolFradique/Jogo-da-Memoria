@@ -1,6 +1,11 @@
 const grid = document.querySelector('.grid')
 const spanPlayer = document.querySelector('.player')
 const timer = document.querySelector('.timer')
+const refresh = document.querySelector('.refresh')
+
+refresh.addEventListener('click', ()=>{
+    location.reload()
+})
 
 const caracters = [
   'beth',
